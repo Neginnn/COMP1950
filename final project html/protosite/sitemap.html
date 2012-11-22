@@ -12,7 +12,7 @@
 
 <body>
 	<div id="body">
-		<a name="top"></a>
+		<a id="top"></a>
 		<header id="main_header">
 			<!--Code Monkey Logo in Css-->
 			<h1>COMP 1950 - SiteMap</h1>
@@ -24,23 +24,21 @@
 
 		<nav id="main_nav">
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#">Course Outline</a></li>
-				<li><a id="lecture_tab" href="#">Lectures</a></li>
-				<nav id="lectures_dropdown">
-					<ul>
-						<li><a href="lectures/lecture1.html">Lecture 1</a></li>
-						<li>Lecture 2</li>
-						<li>Lecture 3</li>
-						<li>Lecture 4</li>
-						<li>Lecture 5</li>
-						<li>Lecture 6</li>
-						<li>Lecture 7</li>
-						<li>Lecture 8</li>
-						<li>Lecture 9</li>
-						<li>Lecture 10</li>
-					</ul>
-				</nav>
+				<li><a href="#">Home</a></li>
+				<li><a href="course_outline.html">Course Outline</a></li>
+				<li><a id="lecture_tab" href="#">Lectures</a>
+				<ul id="lecture_dropdown">
+					<li><a href="lectures/lecture1.html">Lecture 1</a></li>
+					<li>Lecture 2</li>
+					<li>Lecture 3</li>
+					<li>Lecture 4</li>
+					<li>Lecture 5</li>
+					<li>Lecture 6</li>
+					<li>Lecture 7</li>
+					<li>Lecture 8</li>
+					<li>Lecture 9</li>
+					<li>Lecture 10</li>
+				</ul></li>
 				<li><a href="#">Blog</a></li>
 				<li><a href="#">Contact</a></li>
 				<li><a href="sitemap.html">SiteMap</a></li>
@@ -66,27 +64,29 @@
 			</header>
 			<article id="sitemap">
 				<div class="content-block">
-					<dl class="map">
-						<dt><a href="index.html">Home</a></dt>	
-
-						<dt><a href="course_outline.html">Course Outline</a></dt>
-
-						<dt>Lectures</dt>
-						<dd><a href="lectures/lecture1.html">Lecture 1</a></dd>
-						<dd><a href="#">Lecture 2</a></dd>
-						<dd><a href="#">Lecture 3</a></dd>
-						<dd><a href="#">Lecture 4</a></dd>
-						<dd><a href="#">Lecture 5</a></dd>
-						<dd><a href="#">Lecture 6</a></dd>
-						<dd><a href="#">Lecture 7</a></dd>
-						<dd><a href="#">Lecture 8</a></dd>
-						<dd><a href="#">Lecture 9</a></dd>
-						<dd><a href="#">Lecture 10</a></dd>
-
-						<dt><a href="#">Blog</a></dt>
-						<dt><a href="#">Contact</a></dt>
-						<dt><a href="sitemap.html">Sitemap</a></dt>
-					</dl>
+					<nav class="map">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="course_outline.html">Course Outline</a></li>
+							<li>Lectures
+								<ul>
+									<li><a href="lectures/lecture1.html">Lecture 1</a></li>
+									<li><a href="#">Lecture 2</a></li>
+									<li><a href="#">Lecture 3</a></li>
+									<li><a href="#">Lecture 4</a></li>
+									<li><a href="#">Lecture 5</a></li>
+									<li><a href="#">Lecture 6</a></li>
+									<li><a href="#">Lecture 7</a></li>
+									<li><a href="#">Lecture 8</a></li>
+									<li><a href="#">Lecture 9</a></li>
+									<li><a href="#">Lecture 10</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="sitemap.html">Sitemap</a></li>
+						</ul>
+					</nav>
 				</div><!--END OF CONTENT-BLOCK-->
 			</article>
 
