@@ -4,30 +4,55 @@
 	<title>Code Monkey - Client Project Site</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link type="text/css" rel="stylesheet" href="style.css" />
+	<link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/global/nav/styles/navigation.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.4.css" media="screen" />
 	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<script>
-		
+	<script type="text/javascript">
+		$(function() {
+			$('#gallery a').lightBox();
+		});
 	</script>
 </head>
 
 <body>
+<script type="text/javascript">
+    var searchSection = 'global';
+    var searchCountry = 'us';
+</script>
 	<div id="body">
 		<header id="main_header">
-			<!--Code Monkey Logo in Css-->
+			<!--Code Monkey Logo-->
+			<img src="images/monkey1.jpg" alt="code monkey logo" />
 			<h1>Client Site: COMP1950 - Wireframes</h1>
 		</header>
+		
+		<script src="http://images.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
+<nav id="globalheader" class="apple">
 
-		<nav id="main_nav">
-			<ul>
+<ul id="menu">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="protosite/index.html">Proto-site</a></li>
 				<li><a href="wireframe.html">WireFrames</a></li>
-			</ul>
-		</nav>
+</ul>
 
-		<!--<div id="search_bar">
-			<p>Search</p>
-		</div>-->
+     <div id="globalsearch">
+
+
+        <form action="http://www.google.com/search" method="get" class="search" id="g-search"><div class="sp-label">
+            <label for="sp-searchtext">Search</label>
+            <input type="text" name="q" id="sp-searchtext" accesskey="s" />
+			
+
+        </div></form>
+
+
+
+
+        <div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
+        <div id="sp-results"></div>
+    </div>
+</nav>
+
 
 		<section id="main_content">
 			<header id="maincontent_header">
@@ -64,8 +89,9 @@
 
 		<footer>
 			<p id="referer">
-				<a href="http://validator.w3.org/check?uri=referer">HTML Validator</a>
+				<a href="http://validator.w3.org/check?uri=referer"><img src="images/HTML5_1Color_Black.png" alt="HTML 5 logo" width="10%"/></a>
 			</p>
+			<hr />
 			<p id="copyright">Copyright&copy;Code Monkey 2012</p>
 		</footer>
 	</div> <!--END OF BODY DIV-->
