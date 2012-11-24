@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<title>Code Monkey - Client Project Site</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link href='http://fonts.googleapis.com/css?family=Scada' rel='stylesheet' type='text/css'>
-	<link type="text/css" rel="stylesheet" href="style.css" />
-	<link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/global/nav/styles/navigation.css" type="text/css" />
-	<script src="js/jquery.js"></script>
+	<link type="text/css" rel="stylesheet" href="/codemonkeys/protosite/style.css" />
+    <link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/global/nav/styles/navigation.css" type="text/css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 	<script>
 		
 	</script>
@@ -16,7 +16,7 @@
 	<div id="body">
 		<header id="main_header">
 			<!--Code Monkey Logo-->
-			<img src="images/monkey1.jpg" alt="code monkey logo" />
+			<a href="/codemonkeys/index.html"><img src="images/monkey1.jpg" alt="code monkey logo" /></a>
 			<h1>Client Site: COMP1950</h1>
 		</header>
 		  <script type="text/javascript">
@@ -29,7 +29,7 @@
 <nav id="globalheader" class="apple">
 
 <ul id="menu">
-				<li><a href="/codemonkeys/index.html">Home</a></li>
+				<li><a id="current" href="/codemonkeys/index.html">Home</a></li>
 				<li><a href="/codemonkeys/protosite/index.html">Proto-site</a></li>
 				<li><a href="/codemonkeys/wireframe.html">WireFrames</a></li>
 			</ul>
@@ -38,17 +38,23 @@
      <div id="globalsearch">
 
 
-        <form action="http://www.google.com/search?site=http://teams.thenet.ca/codemonkeys" method="get" class="search" id="g-search"><div class="sp-label">
+        <form action="http://www.google.com/search" method="get" class="search" id="g-search"><div class="sp-label">
             <label for="sp-searchtext">Search</label>
-	    <input type="hidden"  name="sitesearch" value="teams.thenet.ca/codemonkeys" />
             <input type="text" name="q" id="sp-searchtext" accesskey="s" />
+			
 
         </div></form>
+
+
+
 
         <div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
         <div id="sp-results"></div>
     </div>
 </nav>
+
+		
+
 
 		<section id="main_content">
 			<header id="maincontent_header">
@@ -56,12 +62,16 @@
 			</header>
 			<article id="introduction">
 				<h3>Introduction</h3>
-				<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="paragraph"> Team CodeMonkeys had 3 main goals for this project. The first is to create a user interface that is easy to learn, easy to navigate and with elements in places that you would expect (ie. the search bar in the upper right hand corner).  Our second goal is to take the problems experienced by the client and to create acceptable solutions.  Our last goal was to make sure that the website would be accessible through a touch tablet or mobile phone device.</p>
 			</article>
 			
 			<article id="rationale">
 				<h3>Rationale</h3>
-				<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="paragraph">Team CodeMonkeys decided to go towards the path of the simple, but beautiful approach.</p>
+				<p class="paragraph">On sites such as CNN.com, has bright distractive colours have become the norm.  The COMP1950 site requires no such distractions.  The visual style should focus mainly on the content, not on flashy colours that may distract the user.  Therefore, every element on the page must have a purpose and every colour should have meaning.</p>
+				<p class="paragraph">With the introduction of new tablets and the use of mobile phones, the 9-10 inch screen sizes has become the most important size to target.  We decided that our site would be optimized for this screen size and for the use of touch mobile phones.</p>
+				<p class="paragraph">The existing site uses a Navigation list docked to the right side of the page.  This is difficult to use with touch devices since the links are too close together and leaves the page unbalanced when you scroll down to where the links are no longer visible.  The new navigation is a tabbed bar at the top of the page with sufficient spacing to allow for easy access on touch devices.</p>
+				<p class="paragraph">The tabbed links that contain a submenu will have a dropdown list of associated links.  This is to ensure that the site remains as uncluttered as possible.</p>
 			</article>
 		
 			<article id="members">
@@ -70,7 +80,7 @@
 					<dt>Jim Cho</dt>
 					<dd>Worked on the Thumblr page, implemented the Javascript, assisted in CSS</dd>
 					<dt>Michelle Quan</dt>
-					<dd>Worked on the HTML5 content pages, assisted in CSS</dd>
+					<dd>Worked on the HTML5 content pages, assisted in CSS and Javascript</dd>
 					<dt>Negin Niamir</dt>
 					<dd>Worked on the design/look of the site, completed Wireframes, assisted in CSS</dd>
 					<dt>Robin Orford</dt>
@@ -82,9 +92,8 @@
 
 		<footer>
 			<p id="referer">
-				<a href="http://validator.w3.org/check?uri=referer">HTML Validator</a>
+				<a href="http://validator.w3.org/check?uri=referer"><img src="images/HTML5_1Color_Black.png" alt="HTML 5 logo"/></a>
 			</p>
-			<hr id="horizontal_rule" />
 			<p id="copyright">Copyright&copy;Code Monkey 2012</p>
 		</footer>
 	</div> <!--END OF BODY DIV-->

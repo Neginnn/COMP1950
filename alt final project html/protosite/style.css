@@ -1,21 +1,46 @@
+body	{
+	background-color:#BCB8B8;
+	}
+
 #body	{
-	width: 900px;
+	width: 1050px;
   margin:auto;
+  box-shadow:10px 10px 5px #888888;
+  background-color:white;
+  border-radius:10px;
 }
 
 #main_header	{
   color:#134C5B;
   font-family: 'Scada', sans-serif;
+  
+  
+}
+
+#main_header .bcit {
+  width:30%;
+  padding:20px 30px;
 }
 
 #main_header img	{
-  width:50%;
+  width:16%;
+  padding:20px 30px 0px;
 }
 
 #main_header h1	{
   position:relative;
   float:right;
+  top:50px;
+  padding-right:30px;
+  font-size:18pt;
+}
+
+#main_header #protosite	{
+  position:relative;
+  float:right;
   top:20px;
+  padding-right:30px;
+  font-size:18pt;
 }
 
 /* Main */
@@ -35,7 +60,7 @@
 #menu a{
 	float: left;
 	height: 25px;
-	padding: 0 45px;
+	padding: 0 35px;
 	color: white;
 	text-transform: uppercase;
 	font: bold 12px/25px Arial, Helvetica;
@@ -121,9 +146,10 @@
 	background: -o-linear-gradient(orange,  orange);
 	background: -ms-linear-gradient(orange,  orange);
 	background: linear-gradient(orange,  orange);
+	
 }
 
-#04acec,  #0186ba)
+
 #menu ul li:first-child a{
     -moz-border-radius: 5px 5px 0 0;
     -webkit-border-radius: 5px 5px 0 0;
@@ -162,6 +188,10 @@
 	height: 0;
 }
 
+#menu #current	{
+	color:black;
+}
+
 * html #menu             { zoom: 1; } /* IE6 */
 *:first-child+html #menu { zoom: 1; } /* IE7 */
 
@@ -169,6 +199,19 @@
   color:#134C5B;
   font-family: 'Scada', sans-serif;
   font-style:italic;
+  
+}
+
+#main_header	{
+  padding:0px 15px;
+}
+
+#client_site	{
+   padding:0px 45px;
+}
+
+#main_content	{
+  padding:0px 65px;
 }
 
 #introduction	{
@@ -212,6 +255,12 @@ footer	{
   float:right;
   color:#8B8E8E;
 }
+
+#client_site	{
+  position:relative;
+  float:right;
+  top:-15px;
+}
   
 #client_site a	{
 	text-decoration:none;
@@ -223,12 +272,23 @@ footer	{
   color:#F7991D;
 }
 
+figcaption	{
+  font-family: 'Scada', sans-serif;
+  color:#8B8E8E;
+  font-size:9pt;
+  padding:5px;
+}
+
 article {
   font-family: 'Scada', sans-serif;
 }
 
-.content-block a:hover	{
+.content-block a	{
   color:#F7991D;
+}
+
+.content-block a:hover	{
+  color:#6B82A3;
 }
   
 .content-block dt	{
@@ -238,13 +298,28 @@ article {
   padding:5px;
 }
 
+article h3	{
+  border-top:1px solid;
+  border-color:#DBDBDD;
+  border-top-width:40%;
+  padding-top:10px;
+}
 
-#bottom_nav ul	{
+
+
+#bottom_nav	{
   list-style: none;
   padding: 0;
 	margin-left: 0;
-  margin-top:40px;
+  margin-top:65px;
+  margin-bottom:30px;
   font-family: 'Scada', sans-serif;
+  padding-left:30px;
+  padding-right:30px;
+  padding-bottom:40px;
+  position:relative;
+  float:right;
+  top:60px
 }
 
 #bottom_nav a {
@@ -255,10 +330,34 @@ article {
 #bottom_nav a:hover	{
   color:#F7991D;
 }
+
+#referer img	{
+  width:5%;
+ 	position:relative;
+  top:15px;
+  padding-left:30px;
+  padding-bottom:20px;
+}
   
   
   
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
