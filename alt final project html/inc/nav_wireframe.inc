@@ -6,9 +6,9 @@
 <nav id="globalheader" class="apple">
 
 <ul id="menu">
-				<li><a id="current" href="/codemonkeys/index.shtml">Home</a></li>
-				<li><a href="/codemonkeys/protosite/index.shtml">Proto-site</a></li>
-				<li><a href="/codemonkeys/wireframe.shtml">WireFrames</a></li>
+    <li><a href="/codemonkeys/index.shtml">Home</a></li>
+    <li><a href="/codemonkeys/protosite/index.shtml">Proto-site</a></li>
+    <li><a id="current" href="/codemonkeys/wireframe.shtml">WireFrames</a></li>
 </ul>
 
      <div id="globalsearch">
