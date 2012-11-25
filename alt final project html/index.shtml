@@ -2,59 +2,19 @@
 <html>
 <head>
 	<title>Code Monkey - Client Project Site</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link href='http://fonts.googleapis.com/css?family=Scada' rel='stylesheet' type='text/css'>
-	<link type="text/css" rel="stylesheet" href="/codemonkeys/protosite/style.css" />
-    <link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/global/nav/styles/navigation.css" type="text/css" />
-	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<script>
-		
-	</script>
+	<!--#include file="inc/scripts.inc"-->
 </head>
 
 <body>
 	<div id="body">
+
 		<header id="main_header">
 			<!--Code Monkey Logo-->
-			<a href="/codemonkeys/index.html"><img src="images/monkey1.jpg" alt="code monkey logo" /></a>
+			<!--#include file="inc/logo.inc"-->
 			<h1>Client Site: COMP1950</h1>
 		</header>
-		  <script type="text/javascript">
-    var searchSection = 'global';
-    var searchCountry = 'us';
-</script>
 
-
-<script src="http://images.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
-<nav id="globalheader" class="apple">
-
-<ul id="menu">
-				<li><a id="current" href="/codemonkeys/index.html">Home</a></li>
-				<li><a href="/codemonkeys/protosite/index.html">Proto-site</a></li>
-				<li><a href="/codemonkeys/wireframe.html">WireFrames</a></li>
-			</ul>
-	
-
-     <div id="globalsearch">
-
-
-        <form action="http://www.google.com/search" method="get" class="search" id="g-search"><div class="sp-label">
-            <label for="sp-searchtext">Search</label>
-            <input type="text" name="q" id="sp-searchtext" accesskey="s" />
-			
-
-        </div></form>
-
-
-
-
-        <div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
-        <div id="sp-results"></div>
-    </div>
-</nav>
-
-		
-
+		<!--#include file="inc/nav_home.inc"-->
 
 		<section id="main_content">
 			<header id="maincontent_header">
@@ -89,13 +49,8 @@
 			</article>
 			
 		</section> <!--END OF MAIN_CONTENT SECTION-->
-
-		<footer>
-			<p id="referer">
-				<a href="http://validator.w3.org/check?uri=referer"><img src="images/HTML5_1Color_Black.png" alt="HTML 5 logo"/></a>
-			</p>
-			<p id="copyright">Copyright&copy;Code Monkey 2012</p>
-		</footer>
+		<!--#include file="inc/footer.inc"-->
+		
 	</div> <!--END OF BODY DIV-->
 </body>
 </html>

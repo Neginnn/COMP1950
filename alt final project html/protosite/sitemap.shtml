@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COMP 1950 | SiteMap</title>
+	<!--#include file="inc/scripts.inc"-->
+</head>
+
+<body>
+	<div id="body">
+		<a id="top"></a>
+		<header id="main_header">
+			<!--Code Monkey Logo in Css-->
+			<!--#include file="inc/logo.inc"-->
+			<h1 id="protosite">COMP 1950 - SiteMap</h1>
+		</header>
+
+		<!--#include file="inc/back.inc"-->
+		<!--#include file="inc/nav_begin.inc"-->
+		<!--#include file="inc/nav_sitemap.inc"-->
+		<!--#include file="inc/nav_end.inc"-->
+		<section id="main_content">
+			<header id="maincontent_header">
+				<h2>SiteMap</h2>
+			</header>
+			<article id="sitemap">
+				<div class="content-block">
+					<nav class="map">
+						<ul>
+							<li><a href="index.shtml">Home</a></li>
+							<li><a href="course_outline.shtml">Course Outline</a></li>
+							<li>Lectures
+								<ul>
+									<li><a href="lectures/lecture1.shtml">Lecture 1</a></li>
+									<li><a href="#">Lecture 2</a></li>
+									<li><a href="#">Lecture 3</a></li>
+									<li><a href="#">Lecture 4</a></li>
+									<li><a href="#">Lecture 5</a></li>
+									<li><a href="#">Lecture 6</a></li>
+									<li><a href="#">Lecture 7</a></li>
+									<li><a href="#">Lecture 8</a></li>
+									<li><a href="#">Lecture 9</a></li>
+									<li><a href="#">Lecture 10</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="contact.shtml">Contact</a></li>
+							<li><a href="sitemap.shtml">Sitemap</a></li>
+						</ul>
+					</nav>
+				</div><!--END OF CONTENT-BLOCK-->
+			</article>
+
+		</section> <!--END OF MAIN_CONTENT SECTION-->
+		<!--#include file="inc/footer.inc"-->
+	</div> <!--END OF BODY DIV-->
+</body>
+</html>

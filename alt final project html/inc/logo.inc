@@ -1,0 +1,1 @@
+<a href="/codemonkeys/index.html"><img src="images/monkey1.jpg" alt="code monkey logo" /></a>
