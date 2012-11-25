@@ -1,20 +1,22 @@
 body	{
-	background-color:#BCB8B8;
+	background-color:#707070;
 	}
 
 #body	{
-	width: 1050px;
+  width: 920px;
   margin:auto;
-  box-shadow:10px 10px 5px #888888;
+  box-shadow:0px 0px 20px 15px #404040;
   background-color:white;
-  border-radius:10px;
+  border-radius:4px;
+}
+
+body #globalheader {
+  width: 860px;
 }
 
 #main_header	{
   color:#134C5B;
   font-family: 'Scada', sans-serif;
-  
-  
 }
 
 #main_header .bcit {
@@ -60,7 +62,7 @@ body	{
 #menu a{
 	float: left;
 	height: 25px;
-	padding: 0 35px;
+	padding: 0 28px;
 	color: white;
 	text-transform: uppercase;
 	font: bold 12px/25px Arial, Helvetica;
@@ -281,6 +283,7 @@ figcaption	{
 
 article {
   font-family: 'Scada', sans-serif;
+  color: #404040;
 }
 
 .content-block a	{

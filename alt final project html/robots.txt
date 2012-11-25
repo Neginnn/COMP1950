@@ -1,0 +1,3 @@
+# robots.txt for http://teams.thenet.ca/codemonkeys/
+User-agent: *
+Disallow: 
