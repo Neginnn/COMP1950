@@ -1,0 +1,266 @@
+body	{
+	background-color:#707070;
+	}
+
+#body	{
+  width: 920px;
+  margin:auto;
+  box-shadow:0px 0px 20px 15px #404040;
+  background-color:white;
+  border-radius:4px;
+}
+
+body #globalheader {
+ display:none;
+}
+
+#main_header	{
+ display:none;
+}
+
+#main_header .bcit {
+ display:none;
+}
+
+#main_header img	{
+  display:none;
+}
+
+#main_header h1	{
+  display:none;
+}
+
+#main_header #protosite	{
+ display:none;
+}
+
+/* Main */
+#menu{
+ display:none;
+}
+
+#menu li{
+ display:none;
+}
+
+#menu a{
+ display:none;
+}
+
+#menu li:hover > a{
+	 display:none;
+}
+
+*html #menu li a:hover{ /* IE6 */
+ display:none;
+}
+
+#menu li:hover > ul{
+ display:none;
+}
+
+/* Sub-menu */
+
+#menu ul{
+ display:none;
+}
+
+#menu ul li{
+ display:none;
+}
+
+#menu ul li:last-child{   
+ display:none;
+}
+
+#menu ul a{    
+ display:none;
+}
+
+*html #menu ul a{ /* IE6 */   
+ display:none;
+}
+
+*:first-child+html #menu ul a{ /* IE7 */    
+ display:none;
+}
+
+#menu ul a:hover{
+ display:none;
+	
+}
+
+
+#menu ul li:first-child a{
+ display:none;
+}
+
+#menu ul li:first-child a:after{
+ display:none;
+}
+
+#menu ul li:first-child a:hover:after{
+ display:none;
+}
+
+#menu ul li:last-child a{
+ display:none;
+}
+
+/* Clear floated elements */
+#menu:after{
+ display:none;
+}
+
+#menu #current	{
+ display:none;
+}
+
+* html #menu             { zoom: 1; } /* IE6 */
+*:first-child+html #menu { zoom: 1; } /* IE7 */
+
+#maincontent_header	{
+  color:#134C5B;
+  font-family: 'Scada', sans-serif;
+  font-style:italic;
+  padding-top:8px;
+  
+}
+
+#main_header	{
+  padding:0px 15px;
+}
+
+#client_site	{
+   padding:0px 45px;
+}
+
+#main_content	{
+  padding:0px 65px;
+  font-size:2em;
+  padding-bottom:35px;
+}
+
+#introduction	{
+  font-family: 'Scada', sans-serif;
+}
+
+#rationale	{
+  font-family: 'Scada', sans-serif;
+}
+
+#members	{
+  font-family: 'Scada', sans-serif;
+}
+
+#members dl	{
+  line-height: 1.5;
+}
+
+#members dt {
+  color:#134C5B;
+  font-family: 'Scada', sans-serif;
+  font-weight:bolder;
+}
+
+footer	{
+ display:none;
+}
+
+#referer a	{
+ display:none;
+}
+
+#referer a:hover	{
+ display:none;
+}
+
+#copyright	{
+  position:relative;
+  float:right;
+  color:#8B8E8E;
+}
+
+#client_site	{
+ display:none;
+}
+  
+#client_site a	{
+ display:none;
+}
+
+#client_site a:hover	{
+ display:none;
+}
+
+figcaption	{
+ display:none;
+}
+
+article {
+  font-family: 'Scada', sans-serif;
+  color: #404040;
+}
+
+.content-block a	{
+  color:#F7991D;
+}
+
+.content-block a:hover	{
+  color:#6B82A3;
+}
+  
+.content-block dt	{
+  color:#134C5B;
+  font-family: 'Scada', sans-serif;
+  font-weight:bolder;
+  padding:5px;
+}
+
+article h3	{
+  border-top:1px solid;
+  border-color:#DBDBDD;
+  border-top-width:40%;
+  padding-top:10px;
+}
+
+
+
+#bottom_nav	{
+ display:none;
+}
+
+#bottom_nav a {
+ display:none;
+}
+
+#bottom_nav a:hover	{
+  display:none;
+}
+
+#referer img	{
+ display:none;
+}
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

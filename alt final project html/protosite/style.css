@@ -11,7 +11,7 @@ body	{
 }
 
 body #globalheader {
-  width: 860px;
+  width: 840px;
 }
 
 #main_header	{
@@ -62,7 +62,7 @@ body #globalheader {
 #menu a{
 	float: left;
 	height: 25px;
-	padding: 0 28px;
+	padding: 0 27px;
 	color: white;
 	text-transform: uppercase;
 	font: bold 12px/25px Arial, Helvetica;
@@ -335,32 +335,19 @@ article h3	{
 }
 
 #referer img	{
+  margin-left: 20px;
   width:5%;
- 	position:relative;
+  position:relative;
   top:15px;
   padding-left:30px;
   padding-bottom:20px;
 }
-  
-  
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.arrow-down {
+	width: 0; 
+	height: 0;
+	display: inline-block;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid;
+}

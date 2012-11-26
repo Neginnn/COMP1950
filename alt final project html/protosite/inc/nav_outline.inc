@@ -2,7 +2,7 @@
 	<li><a href="/codemonkeys/protosite/index.shtml">Home</a></li>
 	<li><a id="current" href="/codemonkeys/protosite/course_outline.shtml">Course Outline</a></li>
 	<li>
-		<a href="#">Lecture</a>
+		<a href="#">Lecture <span class="arrow-down"></span></a>
 		<ul>
 			<li><a href="/codemonkeys/protosite/lectures/lecture1.shtml">Week 1</a></li>
 			<li><a href="#">Week 2</a></li>
