@@ -1,3 +1,3 @@
-body {
-    background-color: yellow;
+#main_header, #main_content {
+    font-size: 220% !important;
 }

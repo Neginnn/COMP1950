@@ -33,18 +33,18 @@
 				<p class="paragraph">The existing site uses a Navigation list docked to the right side of the page.  This is difficult to use with touch devices since the links are too close together and leaves the page unbalanced when you scroll down to where the links are no longer visible.  The new navigation is a tabbed bar at the top of the page with sufficient spacing to allow for easy access on touch devices.</p>
 				<p class="paragraph">The tabbed links that contain a submenu will have a dropdown list of associated links.  This is to ensure that the site remains as uncluttered as possible.</p>
 			</article>
-		
+
 			<article id="members">
 				<h3>Members of the Group</h3>
 				<dl>
 					<dt>Jim Cho</dt>
-					<dd>Worked on the Thumblr page, implemented the Javascript, assisted in CSS</dd>
+					<dd>Worked on the Tumblr page, implemented the jquery, assisted in CSS</dd>
 					<dt>Michelle Quan</dt>
 					<dd>Worked on the HTML5 content pages, assisted in CSS and Javascript</dd>
 					<dt>Negin Niamir</dt>
 					<dd>Worked on the design/look of the site, completed Wireframes, assisted in CSS</dd>
 					<dt>Robin Orford</dt>
-					<dd>Worked on the CSS of the site</dd>
+					<dd>Worked on the CSS of the site and Tumblr</dd>
 				</dl>
 			</article>
 			

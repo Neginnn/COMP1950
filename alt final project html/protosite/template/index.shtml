@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COMP 1950 | Lecture 1</title>
+	<!--#include virtual="../inc/scripts.inc"-->
+</head>
+<body>
+	<div id="body">
+		<a id="top"></a>
+		<header id="main_header">
+			<!--BCIT Logo-->
+			<!--#include virtual="../inc/logo.inc"-->
+			<h1 id="protosite">COMP 1950 - Lecture 1</h1>
+		</header>
+		<!--#include virtual="../inc/back.inc"-->
+		<!--#include virtual="../inc/nav_begin.inc"-->
+		<!--#include virtual="../inc/nav_lecture.inc"-->
+		<!--#include virtual="../inc/nav_end.inc"-->
+
+		<section id="main_content">
+			<header id="maincontent_header">
+				<h2>Weekly Title</h2>
+			</header>
+			<article>
+				<p>Put content here</p>
+			</article>
+
+		</section> <!--END OF MAIN_CONTENT SECTION-->
+		<!--#include virtual="../inc/footer.inc"-->
+	</div> <!--END OF BODY DIV-->
+</body>
+</html>
