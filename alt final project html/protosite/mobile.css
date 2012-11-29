@@ -1,3 +1,7 @@
 #main_header, #main_content {
-    font-size: 220% !important;
+    font-size: 200% !important;
+}
+
+#bottom_nav{
+  margin-top:20px;
 }
