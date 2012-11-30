@@ -32,6 +32,9 @@
 				<p class="paragraph">With the introduction of new tablets and the use of mobile phones, the 9-10 inch screen sizes has become the most important size to target.  We decided that our site would be optimized for this screen size and for the use of touch mobile phones.</p>
 				<p class="paragraph">The existing site uses a Navigation list docked to the right side of the page.  This is difficult to use with touch devices since the links are too close together and leaves the page unbalanced when you scroll down to where the links are no longer visible.  The new navigation is a tabbed bar at the top of the page with sufficient spacing to allow for easy access on touch devices.</p>
 				<p class="paragraph">The tabbed links that contain a submenu will have a dropdown list of associated links.  This is to ensure that the site remains as uncluttered as possible.</p>
+				<p class="paragraph">We also wanted to make it simple to view the site on an overhead projector. Therefore, we included a overhead stylesheet as an alternative style.</p>
+				<p class="paragraph">Smartphone are also a very important part of this site and we include a mobile version which works with all major mobile operating systems.</p>
+
 			</article>
 
 			<article id="members">
